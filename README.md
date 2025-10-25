@@ -1,6 +1,6 @@
 # training-repository
 
-Структура репозитория ("болванка"):
+## 📁 Структура репозитория ("болванка"):
 training-repository/
 ├── .github/
 │   └── workflows/
@@ -18,16 +18,15 @@ training-repository/
 │   └── sandbox.ipynb
 ├── src/
 │   ├── mypkg/
-│   │   ├── __init__.py
+│   │   ├── init.py
 │   │   └── hello.py
 │   └── tests/
-│       └── test_hello.py          # юнит-тест (сейчас лежит внутри src)
+│       └── test_hello.py          # юнит-тесты (у вас внутри src)
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-├── pytest.ini                      # настройки pytest (pythonpath=src, testpaths=…)
+├── pytest.ini                      # pytest: pythonpath=src, testpaths=src/tests
 └── requirements.txt                # зависимости (pytest и др.)
-
 
 📦 Установка
 Клонируйте репозиторий:
