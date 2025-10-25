@@ -1,6 +1,7 @@
 # training-repository
 
 ## 📁 Структура репозитория ("болванка"):
+```
 training-repository/
 ├── .github/
 │   └── workflows/
@@ -27,7 +28,7 @@ training-repository/
 ├── README.md
 ├── pytest.ini                      # pytest: pythonpath=src, testpaths=src/tests
 └── requirements.txt                # зависимости (pytest и др.)
-
+```
 📦 Установка
 Клонируйте репозиторий:
 
