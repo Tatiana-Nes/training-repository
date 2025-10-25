@@ -1,5 +1,34 @@
 # training-repository
 
+Структура репозитория ("болванка"):
+training-repository/
+├── .github/
+│   └── workflows/
+│       └── ci.yml                 # CI: запускает тесты на push/PR
+├── docs/
+│   ├── Makefile
+│   ├── api.md                     # страница API (Sphinx autodoc)
+│   ├── conf.py                    # конфиг Sphinx (+ путь к src)
+│   ├── index.rst                  # оглавление документации
+│   └── make.bat
+├── notebooks/
+│   ├── 01_exploration.ipynb
+│   ├── 02_evaluation.ipynb
+│   ├── 03_reporting.ipynb
+│   └── sandbox.ipynb
+├── src/
+│   ├── mypkg/
+│   │   ├── __init__.py
+│   │   └── hello.py
+│   └── tests/
+│       └── test_hello.py          # юнит-тест (сейчас лежит внутри src)
+├── .gitignore
+├── LICENSE
+├── README.md
+├── pytest.ini                      # настройки pytest (pythonpath=src, testpaths=…)
+└── requirements.txt                # зависимости (pytest и др.)
+
+
 📦 Установка
 Клонируйте репозиторий:
 
