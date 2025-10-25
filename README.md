@@ -3,8 +3,8 @@
 📦 Установка
 Клонируйте репозиторий:
 
-git clone https://github.com/USERNAME/REPO_NAME.git
-cd REPO_NAME
+git clone https://github.com/Tatiana-Nes/training-repository.git
+cd training-repository
 
                   
 (Рекомендуется) создайте виртуальное окружение:
@@ -42,7 +42,7 @@ open _build/html/index.html  # Windows: start _build/html/index.html
 Документация автоматически собирается и публикуется на GitHub Pages при каждом коммите в ветку main.
 
 Ссылка на документацию:
-👉 https://USERNAME.github.io/REPO_NAME/
+👉 https://Tatiana-Nes.github.io/training-repository/
 
 🛠️ Основные команды разработки
 Цель	Команда
